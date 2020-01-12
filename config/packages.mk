@@ -2,8 +2,11 @@
 PRODUCT_PACKAGES += \
     OmniRecord \
     OmniStyle \
-    PixelLiveWallpaperPrebuilt
-
+    PixelLiveWallpaperPrebuilt \
+    ThemePicker \
+    Gallery2 \
+    LatinIME \
+    messaging
 ifeq ($(filter-out Official CI Private, $(DERP_BUILDTYPE)),)
     PRODUCT_PACKAGES += \
         OpenDelta

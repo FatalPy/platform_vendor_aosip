@@ -1,4 +1,4 @@
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=-1
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.debug.alloc=0 \
@@ -122,7 +122,7 @@ PRODUCT_PACKAGES += \
     themed_bootanimation
 
 # GApps
-include vendor/gapps/config.mk
+#include vendor/gapps/config.mk
 
 # Pixel Style
 include vendor/pixelstyle/config.mk
